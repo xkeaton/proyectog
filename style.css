@@ -1,0 +1,112 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.medidas {
+  width: 80%;
+  margin: auto;
+}
+
+.banner {
+  background-image: url("Imagenes/gaddafi-rusli-2ueUnL4CkV8-unsplash.jpg");
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  width: 100%;
+}
+
+.menu_navegacion {
+  padding: 40px;
+  text-align: right;
+  font-size: 20px;
+}
+
+.link_elemento {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 15px 30px;
+  text-align: right;
+}
+
+.link_elemento:hover {
+  background-color: hsla(0, 0%, 100%, 0.452);
+  border-radius: 25px;
+}
+
+.logo {
+  float: left;
+  padding: 30px 0px 0px 0px;
+}
+
+.titulo_banner {
+  padding: 70px 0px 120px 300px;
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+}
+
+.indice {
+  width: 80%;
+  margin: auto;
+}
+
+.elemento_indice {
+  padding: 200px 50px;
+  float: left;
+  width: 25%;
+  font-size: 20px;
+}
+
+.elemento_indice img {
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+  width: 100%;
+  border: 4px solid #000;
+}
+
+.titulo_indice {
+  padding: 15px 0px 0px 0px;
+}
+
+.link_indice {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.link_indice:hover {
+  color: rgb(139, 139, 139);
+}
+
+.contenido {
+  width: 80%;
+  margin: auto;
+}
+
+.titulo_contenido_actividad {
+  float: left;
+  width: 40%;
+  font-size: 40px;
+}
+
+.titulo_contenido_actividad img {
+  width: 95%;
+  padding: 20% 0% 0% 25%;
+}
+
+.contenido_actividad {
+  float: right;
+  width: 40%;
+  font-size: 25px;
+  padding: 100px 0px;
+}
+
+.clear {
+  clear: both;
+}
